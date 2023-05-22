@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(https://i.pinimg.com/236x/5f/60/8c/5f608c7665708de63981e986fc0d1b1b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* contenedor navegacion */
+nav {
+  border: 1px solid #000;
+  height: auto;
+}
+/* ul */
+.navegacion {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1px;
+  height: auto;
+  color: white;
+  background: #000;
+}
+.nav-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    height: 116px;
+ 
+}
+.nav-principal:hover{
+background: #6c6a6aaf;
+}
+
+/* logo de img  */
+.img-logo {
+  width: 250px;
+  height: 40px;
+  
+}
+
+/* contenedor-progreso */
+.contenedor-progreso {
+
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.progreso-pelicula {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+  width:500px;
+  height: 192.35px;
+  background: #00000083;
+  
+}
+.progreso-pelicula  p{
+  color: white;
+}
+.video-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 382px;
+  height: 192.35px;
+  overflow: hidden;
+}
+
+.img-pelicula-marvel{
+    background-image: url(https://i.blogs.es/5b71be/calendario-peliculas-marvel/1366_2000.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* contenedor de las cards marvel */
+.padre-map {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  gap: 1rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 248px;
+  height: 320px;
+  top: 369px;
+  left: 593px;
+  color: white;
+  background: linear-gradient(
+    360deg,
+    #000000 0%,
+    #090c14 0.01%,
+    rgba(23, 26, 32, 0) 36.49%,
+    rgba(39, 44, 52, 0) 114.84%
+  );
+  border-radius: 5px;
+  padding: 12px 0 0 0;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.contenedor-icon-marvel{
+    border: 2px dashed #817f287d;
+    transition: border-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.contenedor-icon-marvel:hover {
+    border-color: #00ff00;
+    
+  }
+ 
+.icon-marvel {
+  border-radius: 50%;
+  width: 122.21px;
+  height: 122.21px;
+}
+.texto-name {
+  height: 31.069351196289062px;
+  width: 100%;
+  left: 677px;
+  top: 404.078125px;
+  text-align: center;
+  margin-bottom: 10px; 
+}
+.hijo-cards {
+  height: 49px;
+  width: 178px;
+  border-radius: 2px;
+  margin-bottom: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4b4b4b34;
+}
+i{
+    color: white;
+    font-size: 30px;
+
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+   gap: 3rem;
+}
+
+/*  modal */
+.padre-modal{
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #0000002f;
+  position: fixed;
+}
+.hijo-modal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height:500px;
+  background: #e10be9;
+  border-radius: 12px;
+}
+
+
+.img-modal{
+  width: 100%;
+  height: 200px;
+}
+.detalles{
+  display: flex;
+  flex-direction: column;
+width: 100%;
+height: 100%;
+}
+.detalles p{
+  color: black;
+  border-bottom: 4px solid green;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  width: 100px;
+}
+.contenedor-comic-peliculas{
+  border: 1px solid #000;
+}
